@@ -1,4 +1,4 @@
-# Raccoon Rogue
+# Sly 2 Inspired
 
 **Raccoon Rogue** is a 3D cel-shaded stealth-action platformer built in **Godot 4**. Inspired by classic heist platformers, the game features vertical rooftop traversal, systemic stealth mechanics, acrobatic movement, and a mission-based heist loop.
 
