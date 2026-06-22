@@ -4,7 +4,7 @@
 
 ---
 
-## 🏗️ Architectural Overview
+## Architectural Overview
 This project utilizes a modular, component-based architecture for scalability and maintainability:
 
 *   **Global Event Bus (`EventBus.gd`):** Decoupled communication between gameplay systems, UI, and audio.
@@ -14,7 +14,7 @@ This project utilizes a modular, component-based architecture for scalability an
 
 ---
 
-## ✨ Core Features
+## Core Features
 
 ### Traversal & Acrobatics
 *   **Context-Sensitive Movement:** Physics-based traversal with auto-snapping to environmental anchors.
@@ -34,7 +34,7 @@ This project utilizes a modular, component-based architecture for scalability an
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 ```
 src/
 ├── autoload/        # Singletons (EventBus, SaveManager, AudioManager, MissionManager)
@@ -48,7 +48,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1.  **Clone/Open:** Open the project folder in **Godot 4.3+**.
 2.  **Input Map:** Ensure the following actions are mapped in `Project > Project Settings > Input Map`:
@@ -58,19 +58,9 @@ src/
     *   `request_pause`
 3.  **Run:** Launch the project via `res://src/core/Main.tscn`.
 
----
-
-## 🗺️ Roadmap Status
-- ✅ **Phase 1: Core Engine** (Structure, AutoLoads, Base FSM)
-- ✅ **Phase 2: Traversal MVP** (Acrobatics, Player States)
-- ✅ **Phase 3: Stealth MVP** (Guard AI, Vision Cones)
-- ✅ **Phase 4: Combat & Gear** (Cane Combo, Gadget Framework)
-- ✅ **Phase 5: Job & Safehouse** (Mission/Collectible Management)
-- ✅ **Phase 6: Visual & UI** (HUD, Pause Menu)
 
 ---
 
-## 📝 Coding Standards
 *   **Indentation:** Always use tabs.
 *   **Typing:** Use explicit static typing for variables, parameters, and return types.
 *   **Design:** Favor composition over inheritance; decouple using signals.
